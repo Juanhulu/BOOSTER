@@ -6,22 +6,7 @@ __Whatsapp__  = '085184169477'
 __Facebook__  = 'https://www.facebook.com/Juan.Hulu.X'
 __Instagram__ = 'https://www.instagram.com/juan.hulu.x'
 __Script__    = 'BOOSTER'
-__Version__   = '0.2'
-
-
-def cek_kepemilikan():
-    if __Author__ != "Juan Hulu":
-        print("Author : False");exit()
-    if __Whatsapp__ != "085184169477":
-        print("Whatsapp : False");exit()
-    if __Facebook__ != "https://www.facebook.com/Juan.Hulu.X":
-        print("Facebook : False");exit()
-    if __Instagram__ != "https://www.instagram.com/juan.hulu.x":
-        print("Instagram : False");exit()
-    if __Script__ != "BOOSTER":
-        print("Script : False");exit()
-
-
+__Version__   = '0.2'
 
 import os,sys,time,random,re,json,datetime,shutil,urllib
 try:import requests
@@ -35,13 +20,8 @@ except ImportError:os.system('pip install colorama')
 try:import names
 except ImportError:os.system('pip install names')
 from bs4 import BeautifulSoup as bs
-from rich import print
-from rich.panel import Panel as panel
-from rich.console import Console
-from rich.columns import Columns as colum
-from time import sleep,strftime
-from concurrent.futures import ThreadPoolExecutor
-from rich.layout import Layout as layout
+from rich import print
+from time import sleep,strftime
 from random import choice as rc
 from random import randint as rr
 dic  = {'1':'Januari','2':'Februari','3':'Maret','4':'April','5':'Mei','6':'Juni','7':'Juli','8':'Agustus','9':'September','10':'Oktober','11':'November','12':'Desember'};tgl = datetime.datetime.now().day;bln = dic[(str(datetime.datetime.now().month))];thn = datetime.datetime.now().year
@@ -790,6 +770,22 @@ def Buy_Key(info):
             exit()
         else:
             print("   ╰─)error> Pilihan Tidak Di Ketahui");sleep(2);Buy_Key("Beli Kunci Untuk Akses Script")
+
+
+
+def cek_kepemilikan():
+    if __Author__ != "Juan Hulu":
+        print("Author : False");exit()
+    if __Whatsapp__ != "085184169477":
+        print("Whatsapp : False");exit()
+    if __Facebook__ != "https://www.facebook.com/Juan.Hulu.X":
+        print("Facebook : False");exit()
+    if __Instagram__ != "https://www.instagram.com/juan.hulu.x":
+        print("Instagram : False");exit()
+    if __Script__ != "BOOSTER":
+        print("Script : False");exit()
+
+
 
 
 
