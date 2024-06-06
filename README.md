@@ -1,5 +1,5 @@
 # BOOSTER
-![BOOSTER Logo](https://raw.githubusercontent.com/Juanhulu/BOOSTER/main/src/1717647303322_bjnni4_2_0)
+![BOOSTER Logo](https://raw.githubusercontent.com/Juanhulu/BOOSTER/main/src/1717647303322_bjnni4_2_0.jpg)
 
 
 Booster : Script Bot Automasi FB
